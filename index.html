@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Arman's Portfolio Website</title>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
   <!navbar making>
@@ -97,11 +98,40 @@
 <!CONTACT BLOCK>
 <div class="section-plum">
 <section id="contact">
-    <h2>Contact me</h2>
-  
-  <p>I'm always interested in hearing about new web devlopment opportunites, content writing and any funny stuff ;).</p>
-  
-<p class="last"><a href="mailto:abc@gmail.com" target="_blank" class="button">Email me</a></p>
+    <h2>CONTACT US</h2>
+    <div class="contact-form">
+    <form id="contact-form" action="https://send.pageclip.co/QdCNApKdAe1pOvVJMool794JzvK0Q4DZ" class="pageclip-form" method="post">
+    <label for="name">
+        Name
+        <span style="font-weight: bolder;">*</span>
+    </label>
+    <br>
+    <input type="text" id="name" name="name" placeholder="Lorem" size="30" required>
+    <br>
+    <label for="email">
+        Email
+        <span style="font-weight: bolder;">*</span>
+    </label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="abc@example.com" size="30" required>
+    <br>
+    <label for="subject">
+        Subject
+        <span style="font-weight: bolder;">*</span>
+    </label>
+    <br>
+    <input type="text" id="subject" name="subject" placeholder="Subject" size="30" required>
+    <br>
+    <label for="message">
+        Message
+        <span style="font-weight: bolder;">*</span>
+    </label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here !" required></textarea>
+    <br>
+    <input type="submit" value="send">
+    </form>
+</div>
   </section>
   </div>
   <div class="gradient"></div>
@@ -121,5 +151,6 @@
 </ul>
 <p><small>&copy; 2021 Mohammad Arman. All rights reserved.</small></p>
 </footer>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
